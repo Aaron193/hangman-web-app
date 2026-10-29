@@ -1,0 +1,3 @@
+Rewrote [TODO.md](/home/dev/Desktop/college/senior/sem1/cse4095/hangman-web-app/TODO.md) as nine manageable phases, with tests included throughout and every checkbox unchecked until verified.
+
+The plan records decisions for difficulty, repeated guesses, API status codes, and game JSON; lists the excluded features; and covers Render deployment and final submission. No code was written, and Specification.md was left unchanged.

@@ -1,0 +1,1 @@
+Updated [TODO.md](/home/dev/Desktop/college/senior/sem1/cse4095/hangman-web-app/TODO.md) with the four requested changes. The rest of the plan remains unchanged.

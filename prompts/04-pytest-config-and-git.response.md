@@ -1,0 +1,3 @@
+Both pytest commands now work. I added [pytest.ini](/home/dev/Desktop/college/senior/sem1/cse4095/hangman-web-app/pytest.ini) with the project root on the import path and `tests` as the test directory, and updated the [README](/home/dev/Desktop/college/senior/sem1/cse4095/hangman-web-app/README.md). Both `.venv/bin/pytest` and `.venv/bin/python -m pytest` passed the smoke test.
+
+`git status` shows a new repository on `main`, with the intended project files and `prompts/` listed as untracked. The virtual environment, `assignment.md`, and `cursor_transcript.md` are ignored. I checked the local Git item in [TODO.md](/home/dev/Desktop/college/senior/sem1/cse4095/hangman-web-app/TODO.md); the GitHub item remains unchecked. No commits were made.
