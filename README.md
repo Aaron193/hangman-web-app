@@ -127,10 +127,15 @@ The word lists use 3–5 letters for easy, 6–8 for medium, and 9 or more for h
 
 ## Deployment and limitations
 
-Games live in server memory and are lost on restart or redeploy. Use one Gunicorn worker so all requests reach the same game store:
+After pushing the repository to GitHub, deploy it using either option in the Render dashboard:
 
-```sh
-gunicorn --workers 1 --bind 0.0.0.0:$PORT server:app
-```
+- Select **New > Blueprint**, connect the GitHub repository, and create the Blueprint instance using the root `render.yaml`. It configures a free Python web service, Python 3.12.3, and a health check at `/`.
+- Alternatively, create a **Web Service** from the GitHub repository, choose the Python runtime and free plan, set `PYTHON_VERSION` to `3.12.3` and the health check path to `/`, and enter these commands:
+
+  Build command: `pip install -r requirements.txt`
+
+  Start command: `gunicorn --workers 1 --bind 0.0.0.0:$PORT server:app`
+
+Games live in server memory and are lost on restart or redeploy. Use one Gunicorn worker so all requests reach the same game store.
 
 Render URL: **[to be added after deployment]**. Render's free tier sleeps when idle, so the first request afterward can take a minute or so.

@@ -57,7 +57,7 @@ Terminal clients, bots, evaluation, scoring, leaderboards, and logging/replay ar
 
 ## Phase 8 — Render deployment
 
-- [ ] Add Gunicorn to dependencies and configure Render to start the Flask app bound to `0.0.0.0:$PORT` with **one worker**, matching the app's module path.
+- [x] Add Gunicorn to dependencies and configure Render to start the Flask app bound to `0.0.0.0:$PORT` with **one worker**, matching the app's module path.
 - [ ] Push the verified project to GitHub and deploy it on Render; record the public HTTPS URL in the README.
 - [ ] Verify the deployed page and all three API endpoints, play a complete browser game, start another, and confirm it works independently of the local server. Check the first request after free-tier idle sleep and keep the service accessible for grading.
 

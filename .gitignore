@@ -13,3 +13,6 @@ htmlcov/
 build/
 dist/
 *.egg-info/
+
+# Raw Codex event streams contain verbatim command output (including course materials); kept locally only.
+prompts/*.events.jsonl
