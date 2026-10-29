@@ -1,0 +1,3 @@
+Updated [server.py](/home/dev/Desktop/college/senior/sem1/cse4095/hangman-web-app/server.py) to move the `NotFound` import and preserve HTTP exception headers, including `Allow`, while retaining the existing JSON error body and status.
+
+Added a 405 header check in [test_api.py](/home/dev/Desktop/college/senior/sem1/cse4095/hangman-web-app/tests/test_api.py). All 79 tests passed. No commits were made.

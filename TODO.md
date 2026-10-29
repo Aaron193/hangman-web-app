@@ -33,9 +33,9 @@ Terminal clients, bots, evaluation, scoring, leaderboards, and logging/replay ar
 
 ## Phase 4 — Flask REST API
 
-- [ ] Create the Flask app, unique game IDs, and separate in-memory game states; implement the three required endpoints using the decisions above.
-- [ ] Validate JSON requests and return consistent status codes and JSON errors; serve the browser assets from Flask.
-- [ ] Add and run API tests for all difficulty levels, independent games, malformed requests, unknown IDs, duplicates, finished games, and answer secrecy while playing; exercise a complete game through HTTP.
+- [x] Create the Flask app, unique game IDs, and separate in-memory game states; implement the three required endpoints using the decisions above.
+- [x] Validate JSON requests and return consistent status codes and JSON errors; serve the browser assets from Flask.
+- [x] Add and run API tests for all difficulty levels, independent games, malformed requests, unknown IDs, duplicates, finished games, and answer secrecy while playing; exercise a complete game through HTTP.
 
 ## Phase 5 — Browser client
 
