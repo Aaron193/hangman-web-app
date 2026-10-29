@@ -1,0 +1,3 @@
+I ran everything outside your sandbox: all 88 tests pass, including the 9 browser ones. I also put the old svg bug back (plus two other regressions: keyboard staying enabled after a game ends, and focus not moving to New game) in a scratch copy and the browser tests failed each time, so they do catch those. I also played full games through a real browser against gunicorn at every difficulty, with wins, losses, repeated clicks and new games after a finished game.
+
+so tick the first two phase 6 boxes (the suite plus the regression tests, and the local play-through). leave the Chrome DevTools one unchecked. nothing else needs changing, no commits.

@@ -1,0 +1,1 @@
+Checked the first two phase 6 boxes in [TODO.md](/home/dev/Desktop/college/senior/sem1/cse4095/hangman-web-app/TODO.md:48). The Chrome DevTools box remains unchecked. No other files were changed, and no commit was made.

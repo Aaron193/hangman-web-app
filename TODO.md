@@ -45,8 +45,8 @@ Terminal clients, bots, evaluation, scoring, leaderboards, and logging/replay ar
 
 ## Phase 6 — Testing and debugging
 
-- [ ] Run the engine and API test suite and fix any failures; add tests for defects discovered during integration.
-- [ ] Play games locally at every difficulty, including a win, a loss, invalid and repeated guesses, and a new game after completion.
+- [x] Run the engine and API test suite and fix any failures; add tests for defects discovered during integration.
+- [x] Play games locally at every difficulty, including a win, a loss, invalid and repeated guesses, and a new game after completion.
 - [ ] Inspect a guess request and its JSON response in Chrome Developer Tools; verify the displayed state updates and the active answer is absent from responses.
 
 ## Phase 7 — Docs and packaging
