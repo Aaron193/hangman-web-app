@@ -2,3 +2,6 @@
 02-todo-polish	2026-10-29T21:56:00Z	2026-10-29T21:56:10Z	exit=0	resume	thread=01a189a8-263e-7d20-bc82-cf2f05404574
 03-project-setup	2026-10-29T21:57:08Z	2026-10-29T21:57:42Z	exit=0	new	thread=01a189aa-b592-7bf0-9493-0bc5d79b75db
 04-pytest-config-and-git	2026-10-29T21:58:56Z	2026-10-29T21:59:10Z	exit=0	resume	thread=01a189aa-b592-7bf0-9493-0bc5d79b75db
+05-word-management	2026-10-29T21:59:51Z	2026-10-29T22:21:45Z	exit=0	new	thread=01a189ad-3193-7731-92d5-586240010ada
+06-word-management-resume	2026-10-29T22:22:12Z	2026-10-29T22:22:34Z	exit=0	resume	thread=01a189ad-3193-7731-92d5-586240010ada
+07-word-list-fixes	2026-10-29T22:23:11Z	2026-10-29T22:23:20Z	exit=0	resume	thread=01a189ad-3193-7731-92d5-586240010ada

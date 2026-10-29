@@ -22,8 +22,8 @@ Terminal clients, bots, evaluation, scoring, leaderboards, and logging/replay ar
 
 ## Phase 2 — Word management
 
-- [ ] Add suitable word lists for each difficulty using the rules above; load, validate, and deduplicate them and select a random word for a requested level.
-- [ ] Add and run tests for each level, invalid difficulty, invalid or empty lists, and selection from the appropriate list.
+- [x] Add suitable word lists for each difficulty using the rules above; load, validate, and deduplicate them and select a random word for a requested level.
+- [x] Add and run tests for each level, invalid difficulty, invalid or empty lists, and selection from the appropriate list.
 
 ## Phase 3 — Game engine
 

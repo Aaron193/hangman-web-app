@@ -1,0 +1,1 @@
+two words in the lists look off: "livingroom" in hard isn't really a word (it's "living room") and "froggy" in medium is kind of slangy. swap them for normal everyday words that still fit the length rules for their list, with no duplicates anywhere. re-run the tests and that's it, nothing else should change. no commits.

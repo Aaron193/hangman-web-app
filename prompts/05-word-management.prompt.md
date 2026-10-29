@@ -1,0 +1,7 @@
+next up is phase 2 in TODO.md, word management. some specifics:
+
+- words/easy.txt, medium.txt and hard.txt: lowercase a-z only, one word per line, following the length rules in the TODO (easy 3-5 letters, medium 6-8, hard 9+). roughly 100 words each of common everyday english, nothing offensive, no proper nouns, no duplicates. delete the .gitkeep once there are real files in there.
+- word_manager.py: a small WordManager class like the spec mentions is fine. it should load the lists, strip whitespace, lowercase, skip blank lines and drop duplicates, and raise a clear error (naming the file and the entry) for anything that isn't a-z after that, or for a missing/empty file. picking a random word for a difficulty should raise ValueError for anything other than exactly easy/medium/hard, including non-strings. build the paths from the module's location instead of the current directory so it still works when gunicorn starts it from somewhere else. make the words directory and the random generator injectable (a words dir argument and a random.Random) so the tests can be deterministic.
+- tests/test_word_manager.py: every level returns a word from the right list, bad difficulty, bad/empty/missing lists (use tmp_path), duplicates removed, and the real lists actually follow the length rules and have at least 50 words each.
+
+run the tests, tick the TODO boxes you verified, and tell me what you did. no commits.

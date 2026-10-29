@@ -1,0 +1,1 @@
+the connection dropped partway through that last one and you got stuck, so I stopped it. check what's already in the repo for phase 2 first (the word lists and the new word_manager.py are there, but no tests and no response), then finish up: write tests/test_word_manager.py like I described, run the whole suite, and tick the TODO boxes you verified. no commits.
