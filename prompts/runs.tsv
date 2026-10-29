@@ -13,3 +13,5 @@
 13-ui-polish	2026-10-29T22:34:22Z	2026-10-29T22:34:56Z	exit=0	resume	thread=01a189c7-da23-77a1-a3c1-6a37d23a88a1
 14-browser-tests	2026-10-29T22:36:27Z	2026-10-29T22:37:29Z	exit=0	new	thread=01a189ce-b6b3-7183-8f19-a4b88bb378cc
 15-tick-phase-6	2026-10-29T22:40:11Z	2026-10-29T22:40:19Z	exit=0	resume	thread=01a189ce-b6b3-7183-8f19-a4b88bb378cc
+16-docs-and-packaging	2026-10-29T22:40:51Z	2026-10-29T22:42:00Z	exit=0	new	thread=01a189d2-bd24-7081-be57-d16d9ebc1b46
+17-readme-verified	2026-10-29T22:44:15Z	2026-10-29T22:44:24Z	exit=0	resume	thread=01a189d2-bd24-7081-be57-d16d9ebc1b46

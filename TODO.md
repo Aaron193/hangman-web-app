@@ -51,9 +51,9 @@ Terminal clients, bots, evaluation, scoring, leaderboards, and logging/replay ar
 
 ## Phase 7 — Docs and packaging
 
-- [ ] Write README.md with local setup, run and test commands, browser usage, API examples, the decisions and deviations from Specification.md, and known limitations (including in-memory games and Render's free-tier idle sleep, which can make the first request take a minute or so).
-- [ ] Ensure the repository includes the original specification, updated plan, source, word lists, dependencies, tests, and the `prompts/` folder; exclude local environments, secrets, and generated files.
-- [ ] Verify the documented setup and play flow from a fresh clone or clean environment.
+- [x] Write README.md with local setup, run and test commands, browser usage, API examples, the decisions and deviations from Specification.md, and known limitations (including in-memory games and Render's free-tier idle sleep, which can make the first request take a minute or so).
+- [x] Ensure the repository includes the original specification, updated plan, source, word lists, dependencies, tests, and the `prompts/` folder; exclude local environments, secrets, and generated files.
+- [x] Verify the documented setup and play flow from a fresh clone or clean environment.
 
 ## Phase 8 — Render deployment
 

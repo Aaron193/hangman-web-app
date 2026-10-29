@@ -1,0 +1,3 @@
+Replaced the stub [README.md](/home/dev/Desktop/college/senior/sem1/cse4095/hangman-web-app/README.md) with setup, play, API, design, limitations, and deployment documentation. I checked the requirements, expanded [.gitignore](/home/dev/Desktop/college/senior/sem1/cse4095/hangman-web-app/.gitignore) for common generated files, and marked the two verified phase 7 items in [TODO.md](/home/dev/Desktop/college/senior/sem1/cse4095/hangman-web-app/TODO.md). The fresh-clone item remains unchecked.
+
+The API examples were verified against Flask’s test client, and all 79 non-browser tests passed. The nine browser tests failed because Chrome received `ERR_ACCESS_DENIED` when connecting to the local test server in this environment. No commits were made.

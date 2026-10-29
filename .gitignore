@@ -6,3 +6,10 @@ __pycache__/
 .env.*
 assignment.md
 cursor_transcript.md
+venv/
+env/
+.coverage
+htmlcov/
+build/
+dist/
+*.egg-info/
