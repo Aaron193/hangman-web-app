@@ -1,0 +1,3 @@
+Updated the mobile layout so the pattern sits below the drawing and a 12-letter pattern fits on one line at 375px. Wins and losses now have prominent green and red banners, and focus moves to **New game** when a game ends.
+
+A headless Chrome check with mocked responses verified the mobile layout, both outcome messages and focus behavior, and the computed display of all six figure parts and their reset. All 79 existing tests pass. No commits were made.

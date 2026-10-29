@@ -39,9 +39,9 @@ Terminal clients, bots, evaluation, scoring, leaderboards, and logging/replay ar
 
 ## Phase 5 — Browser client
 
-- [ ] Build the difficulty selector and new-game flow, and render the server-provided pattern, guessed letters, remaining guesses, and game outcome.
-- [ ] Add clickable letters and keyboard input, a drawing that changes with incorrect guesses, and a way to start another game without reloading. Disable unavailable input and show request errors clearly.
-- [ ] Connect all game actions with `fetch()`; keep game rules and the active answer on the server. Verify browser updates after correct and incorrect guesses and test the interface at desktop and mobile sizes.
+- [x] Build the difficulty selector and new-game flow, and render the server-provided pattern, guessed letters, remaining guesses, and game outcome.
+- [x] Add clickable letters and keyboard input, a drawing that changes with incorrect guesses, and a way to start another game without reloading. Disable unavailable input and show request errors clearly.
+- [x] Connect all game actions with `fetch()`; keep game rules and the active answer on the server. Verify browser updates after correct and incorrect guesses and test the interface at desktop and mobile sizes.
 
 ## Phase 6 — Testing and debugging
 

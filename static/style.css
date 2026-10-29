@@ -1,1 +1,41 @@
-/* Styles will be added in a later phase. */
+:root { color-scheme: light; font-family: system-ui, sans-serif; color: #17233a; background: #edf2f7; }
+* { box-sizing: border-box; }
+body { margin: 0; padding: 24px 16px; }
+.game { max-width: 820px; margin: 0 auto; padding: 28px; background: #fff; border-radius: 16px; box-shadow: 0 4px 24px #17233a1a; }
+h1 { margin: 0 0 18px; font-size: 2rem; }
+h2 { margin: 0; font-size: 1.15rem; }
+form { display: flex; flex-wrap: wrap; align-items: center; gap: 10px; }
+label { font-weight: 600; }
+button, select { min-height: 44px; border: 1px solid #68758a; border-radius: 6px; font: inherit; }
+button { cursor: pointer; font-weight: 700; }
+button:focus-visible, select:focus-visible { outline: 3px solid #e49c13; outline-offset: 3px; }
+select { padding: 0 12px; background: white; color: inherit; }
+#new-game { padding: 0 18px; color: white; background: #244b82; border-color: #244b82; }
+button:disabled { cursor: not-allowed; }
+#new-game:disabled { opacity: .65; }
+.status { min-height: 1.5em; margin-top: 16px; font-weight: 600; }
+.status.error { color: #9c2424; }
+.status.won, .status.lost { padding: 14px 16px; border: 1px solid; border-radius: 8px; font-size: 1.25rem; }
+.status.won { color: #15552f; background: #d7efdf; border-color: #49825b; }
+.status.lost { color: #842323; background: #f8dddd; border-color: #a65b5b; }
+.board { display: flex; align-items: center; gap: 28px; margin: 12px 0 24px; }
+.drawing { width: 200px; max-width: 35%; flex: none; fill: none; stroke: #17233a; stroke-width: 5; stroke-linecap: round; stroke-linejoin: round; }
+[hidden] { display: none !important; }
+.game-state { min-width: 0; }
+.game-state p { margin: 10px 0; }
+.label { font-weight: 700; }
+.pattern { font-family: ui-monospace, monospace; font-size: clamp(1.5rem, 4vw, 2.25rem); font-weight: 700; overflow-wrap: anywhere; }
+.hint { color: #45536b; margin: 6px 0 14px; }
+.keyboard { display: flex; flex-wrap: wrap; gap: 8px; }
+.keyboard button { width: 44px; height: 44px; background: #eff4fa; color: #17233a; }
+.keyboard button.right { color: #15552f; background: #d7efdf; border-color: #49825b; }
+.keyboard button.wrong { color: #842323; background: #f8dddd; border-color: #a65b5b; text-decoration: line-through; }
+.keyboard button:disabled:not(.right):not(.wrong) { color: #667085; background: #e8ebef; }
+@media (max-width: 480px) {
+  body { padding: 12px; }
+  .game { padding: 18px; }
+  .board { flex-direction: column; align-items: stretch; gap: 12px; }
+  .drawing { width: 110px; max-width: 32%; }
+  .pattern { font-size: 1.25rem; }
+  .keyboard { gap: 6px; }
+}

@@ -4,10 +4,50 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Hangman</title>
-  <link rel="stylesheet" href="style.css">
+  <link rel="icon" href="data:,">
+  <link rel="stylesheet" href="/static/style.css">
+  <script src="/static/app.js" defer></script>
 </head>
 <body>
-  <main><h1>Hangman</h1></main>
-  <script src="app.js"></script>
+  <main class="game">
+    <header>
+      <h1>Hangman</h1>
+      <form id="new-game-form">
+        <label for="difficulty">Difficulty</label>
+        <select id="difficulty" name="difficulty">
+          <option value="easy">Easy</option>
+          <option value="medium" selected>Medium</option>
+          <option value="hard">Hard</option>
+        </select>
+        <button id="new-game" type="submit">New game</button>
+      </form>
+    </header>
+    <div id="status" class="status" role="status" aria-live="polite"></div>
+    <div class="board">
+      <svg class="drawing" viewBox="0 0 200 220" role="img" aria-label="Hangman drawing">
+        <g class="gallows"><path d="M20 205 H180 M50 205 V20 H140 V45" /></g>
+        <g class="parts">
+          <circle cx="140" cy="62" r="17" hidden />
+          <path d="M140 79 V132" hidden />
+          <path d="M140 92 L112 115" hidden />
+          <path d="M140 92 L168 115" hidden />
+          <path d="M140 132 L115 165" hidden />
+          <path d="M140 132 L165 165" hidden />
+        </g>
+      </svg>
+      <section class="game-state" aria-label="Game state">
+        <p class="label">Word</p>
+        <p id="pattern" class="pattern">—</p>
+        <p>Remaining guesses: <strong id="remaining">—</strong></p>
+        <p>Guessed letters: <span id="guessed">None yet</span></p>
+        <p>Wrong letters: <span id="incorrect">None yet</span></p>
+      </section>
+    </div>
+    <section aria-labelledby="keyboard-heading">
+      <h2 id="keyboard-heading">Choose a letter</h2>
+      <p class="hint">Use the buttons or your keyboard.</p>
+      <div id="keyboard" class="keyboard" aria-label="Letter keyboard"></div>
+    </section>
+  </main>
 </body>
 </html>

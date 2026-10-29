@@ -8,3 +8,6 @@
 08-game-engine	2026-10-29T22:24:08Z	2026-10-29T22:24:34Z	exit=0	new	thread=01a189c3-6fad-7d00-a4e5-f89fc0cd2b94
 09-rest-api	2026-10-29T22:25:21Z	2026-10-29T22:25:55Z	exit=0	new	thread=01a189c4-8a9a-7ea2-9484-1f4564b87ae9
 10-api-error-headers	2026-10-29T22:27:57Z	2026-10-29T22:28:11Z	exit=0	resume	thread=01a189c4-8a9a-7ea2-9484-1f4564b87ae9
+11-browser-client	2026-10-29T22:28:58Z	2026-10-29T22:30:09Z	exit=0	new	thread=01a189c7-da23-77a1-a3c1-6a37d23a88a1
+12-fix-hangman-figure	2026-10-29T22:33:16Z	2026-10-29T22:33:35Z	exit=0	resume	thread=01a189c7-da23-77a1-a3c1-6a37d23a88a1
+13-ui-polish	2026-10-29T22:34:22Z	2026-10-29T22:34:56Z	exit=0	resume	thread=01a189c7-da23-77a1-a3c1-6a37d23a88a1
