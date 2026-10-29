@@ -27,9 +27,9 @@ Terminal clients, bots, evaluation, scoring, leaderboards, and logging/replay ar
 
 ## Phase 3 — Game engine
 
-- [ ] Implement independent game state, masking, case-normalized letter validation, correct and incorrect guesses, and the six-guess limit.
-- [ ] Implement duplicate rejection, win/loss detection, finished-game protection, and safe state serialization including end-of-game word disclosure.
-- [ ] Add and run deterministic unit tests for correct, incorrect, repeated and invalid guesses, wins, losses, and hidden-word disclosure.
+- [x] Implement independent game state, masking, case-normalized letter validation, correct and incorrect guesses, and the six-guess limit.
+- [x] Implement duplicate rejection, win/loss detection, finished-game protection, and safe state serialization including end-of-game word disclosure.
+- [x] Add and run deterministic unit tests for correct, incorrect, repeated and invalid guesses, wins, losses, and hidden-word disclosure.
 
 ## Phase 4 — Flask REST API
 

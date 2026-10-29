@@ -1,0 +1,3 @@
+Phase 3 is complete. [game.py](/home/dev/Desktop/college/senior/sem1/cse4095/hangman-web-app/game.py) now contains the Flask-independent game engine, and [tests/test_game.py](/home/dev/Desktop/college/senior/sem1/cse4095/hangman-web-app/tests/test_game.py) covers guesses, error precedence, game outcomes, and answer disclosure. The verified phase 3 items are checked in [TODO.md](/home/dev/Desktop/college/senior/sem1/cse4095/hangman-web-app/TODO.md).
+
+The full suite passed: **51 tests**. No commit was made.
