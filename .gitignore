@@ -16,3 +16,6 @@ dist/
 
 # Raw Codex event streams contain verbatim command output (including course materials); kept locally only.
 prompts/*.events.jsonl
+
+# Local HuskyCT submission drafts and generated files.
+submission/
