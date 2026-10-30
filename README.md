@@ -2,6 +2,8 @@
 
 A browser-based Hangman game backed by a Flask REST API. The server chooses the word and keeps the game rules and state; the browser displays the results of each guess.
 
+Live app: https://hangman-web-app-dwlq.onrender.com
+
 Features:
 - Three difficulty levels and six incorrect guesses per game.
 - On-screen letter buttons and keyboard input, with a drawing that grows after wrong guesses.
@@ -138,4 +140,4 @@ After pushing the repository to GitHub, deploy it using either option in the Ren
 
 Games live in server memory and are lost on restart or redeploy. Use one Gunicorn worker so all requests reach the same game store.
 
-Render URL: **[to be added after deployment]**. Render's free tier sleeps when idle, so the first request afterward can take a minute or so.
+Render URL: https://hangman-web-app-dwlq.onrender.com. Render's free tier sleeps when idle, so the first request afterward can take a minute or so.
