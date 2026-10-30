@@ -59,10 +59,10 @@ Terminal clients, bots, evaluation, scoring, leaderboards, and logging/replay ar
 
 - [x] Add Gunicorn to dependencies and configure Render to start the Flask app bound to `0.0.0.0:$PORT` with **one worker**, matching the app's module path.
 - [x] Push the verified project to GitHub and deploy it on Render; record the public HTTPS URL in the README.
-- [ ] Verify the deployed page and all three API endpoints, play a complete browser game, start another, and confirm it works independently of the local server. Check the first request after free-tier idle sleep and keep the service accessible for grading.
+- [x] Verify the deployed page and all three API endpoints, play a complete browser game, start another, and confirm it works independently of the local server. Check the first request after free-tier idle sleep.
 
 ## Phase 9 — Final submission
 
 - [ ] Prepare the 1–2 page PDF report covering the development process, implementation, testing, deployment, a challenge and its resolution, and reflection; include 2–3 representative agent prompts.
 - [ ] Record a roughly 2–3 minute demonstration of the deployed page, guesses through a complete win or loss, a new game, and an HTTP request and JSON response in Chrome Developer Tools.
-- [ ] Verify the GitHub repository and public deployment URLs, report, recording, original specification, and updated TODO; submit the required materials through HuskyCT.
+- [ ] Verify the GitHub repository and public deployment URLs, report, recording, original specification, and updated TODO; keep the service accessible for grading and submit the required materials through HuskyCT.
